@@ -19,7 +19,7 @@ importers:
         version: 10.0.10
       '@types/node':
         specifier: ^22.10.5
-        version: 22.10.5
+        version: 22.13.1
       '@types/prettier':
         specifier: ^3.0.0
         version: 3.0.0
@@ -28,7 +28,7 @@ importers:
         version: 8.19.0(eslint@9.17.0)(typescript@5.7.2)
       astro:
         specifier: ^5.1.2
-        version: 5.1.8(@types/node@22.10.5)(rollup@4.31.0)(typescript@5.7.2)
+        version: 5.1.8(@types/node@22.13.1)(rollup@4.31.0)(typescript@5.7.2)
       chai:
         specifier: ^5.1.2
         version: 5.1.2
@@ -593,8 +593,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.10.5':
-    resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
+  '@types/node@22.13.1':
+    resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
 
   '@types/prettier@3.0.0':
     resolution: {integrity: sha512-mFMBfMOz8QxhYVbuINtswBp9VL2b4Y0QqYHwqLz3YbgtfAcat2Dl6Y1o4e22S/OVE6Ebl9m7wWiMT2lSbAs1wA==}
@@ -2570,7 +2570,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@22.10.5':
+  '@types/node@22.13.1':
     dependencies:
       undici-types: 6.20.0
 
@@ -2687,7 +2687,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@5.1.8(@types/node@22.10.5)(rollup@4.31.0)(typescript@5.7.2):
+  astro@5.1.8(@types/node@22.13.1)(rollup@4.31.0)(typescript@5.7.2):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.2
@@ -2739,8 +2739,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.14.4
       vfile: 6.0.3
-      vite: 6.0.11(@types/node@22.10.5)
-      vitefu: 1.0.5(vite@6.0.11(@types/node@22.10.5))
+      vite: 6.0.11(@types/node@22.13.1)
+      vitefu: 1.0.5(vite@6.0.11(@types/node@22.13.1))
       which-pm: 3.0.0
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
@@ -4368,18 +4368,18 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.0.11(@types/node@22.10.5):
+  vite@6.0.11(@types/node@22.13.1):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.1
       rollup: 4.31.0
     optionalDependencies:
-      '@types/node': 22.10.5
+      '@types/node': 22.13.1
       fsevents: 2.3.3
 
-  vitefu@1.0.5(vite@6.0.11(@types/node@22.10.5)):
+  vitefu@1.0.5(vite@6.0.11(@types/node@22.13.1)):
     optionalDependencies:
-      vite: 6.0.11(@types/node@22.10.5)
+      vite: 6.0.11(@types/node@22.13.1)
 
   web-namespaces@2.0.1: {}
 
