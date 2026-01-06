@@ -1,6 +1,6 @@
 {
   "name": "astro-light-box",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An Astro component for photoswipe's lightbox.",
   "repository": "https://github.com/jonasfroeller/astro.image.lightbox",
   "license": "MIT",
@@ -16,24 +16,26 @@
     "astro-component"
   ],
   "scripts": {
-    "test": "mocha --parallel --timeout 15000",
+    "test": "npx playwright test",
     "format": "prettier -w .",
     "lint": "eslint . --ext .ts,.js,.astro src",
     "dev": "cd example && astro dev"
   },
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
     "@types/chai": "^5.0.1",
     "@types/eslint": "^9.6.1",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^22.10.5",
-    "@types/prettier": "^3.0.0",
+    "@types/node": "^25.0.3",
     "@typescript-eslint/parser": "^8.19.0",
     "astro": "^5.1.2",
-    "chai": "^5.1.2",
+    "astro-component-tester": "^0.8.0",
+    "chai": "^6.2.2",
     "eslint": "^9.17.0",
     "eslint-plugin-astro": "^1.3.1",
     "mocha": "^11.0.1",
     "photoswipe": "^5.4.4",
+    "playwright": "^1.57.0",
     "prettier": "^3.4.2",
     "prettier-plugin-astro": "^0.14.1",
     "typescript": "^5.7.2"
