@@ -2,7 +2,10 @@
   "name": "astro-light-box",
   "version": "0.1.2",
   "description": "An Astro component for photoswipe's lightbox.",
-  "repository": "https://github.com/jonasfroeller/astro.image.lightbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasfroeller/astro.image.lightbox.git"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
