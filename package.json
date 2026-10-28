@@ -29,7 +29,7 @@
     "@types/chai": "^5.0.1",
     "@types/eslint": "^9.6.1",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^25.0.3",
+    "@types/node": "^26.0.0",
     "@typescript-eslint/parser": "^8.19.0",
     "astro": "^5.1.2",
     "astro-component-tester": "^0.8.0",
